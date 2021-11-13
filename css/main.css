@@ -23,7 +23,7 @@ nav {
 }
 .menu{
     /* background: darkblue; */
-    padding: 10px 40px;
+    padding:2%;
 }
 .menu a {
     color: #fff;
@@ -176,8 +176,8 @@ nav {
 }
 .social .fa {
     color: #00BCE4;
-    font-size: 2rem;
-    padding:5px;
+    font-size: 2em;
+    padding:4%;
 ;
 }
 .parent .title{
@@ -219,6 +219,7 @@ nav {
     /* background: #ddd; */
     margin: auto;
     display:flex;
+    justify-content: space-between;
 }
 .ditail ul li{
     padding-bottom: 20px;
@@ -263,21 +264,22 @@ nav {
     margin: auto;
 }
 .icons{
-    width: 20%;
+    width: 30%;
     margin: auto;
+    padding: 0 2%;
     /* background: darkblue; */
 }
 .icons .fa{
     text-align: center;
-    font-size: 2rem;
-    padding: 4px;
+    font-size: 2em;
+    padding: 4%;
 }
 .tel{
-    width: 100%;
+    width: 50%;
     margin: auto;
     /* background: crimson; */
 }
-@media(max-width:834px){
+@media(max-width:1023px){
     #baner{
         display: block;
         height: 70vh;
@@ -297,7 +299,14 @@ nav {
     text-align: center;
    }
    .social{
+       box-sizing: border-box;
     width: 70%;
+
+
+   }
+   .social .fa{
+       padding: 5%;
+       
    }
    .info,
    .sub{
@@ -322,10 +331,16 @@ nav {
    .image3{
        width: 100%;
    }
+   .icons{
+       width: 45%;
+   }
+   .icons .fa{
+       padding: 4%;
+   }
 }
 @media(max-width:500px) {
     nav {
-        display: block;
+        display: none;
         position: absolute;
         width: 100%;
         right: -500px;
@@ -344,21 +359,26 @@ nav {
             display: block;
         }
         #check:checked~nav {
+            display: block;
             right: 0;
             transition: 1s;
         }
     .bar{
         display: flex;
     }
+    .parent{
+        width: 70%;
+      
+    }
     .btn{
+        width: 50%;
         display: block;
+        margin: auto;
+       
     }
     .btn-child{
         width: 100%;
         margin-top: 10px;
-    }
-    .parent{
-        width: 70%;
     }
     .parent title{
         display: flex;
@@ -368,7 +388,7 @@ nav {
         /* background: chartreuse; */
     }
     .ditail{
-        width: 70%;
+        width: 100%;
     }
     .detail-info h3{
         text-align: center;
@@ -377,17 +397,22 @@ nav {
         text-align: center;
     }
     .subtitle{
+        padding:0;
         justify-content: center;
+        /* background: brown; */
+    }
+    .discrip{
+        padding: 10px;
     }
     .image{
         width: 90%;
         padding: 10px;
     }
-    
 .icons{
-    width: 40%;
+    width: 65%;
 }
     .icons .fa{
-        font-size: 1rem;
+        font-size: 1.8rem;
+        /* padding: 5px; */
     }
 }
