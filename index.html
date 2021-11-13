@@ -1,29 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/main.css">
-    <title>menu responsvie</title>
+    <title>home</title>
 </head>
+
 <body>
     <input type="checkbox" id="check">
-    <label for="check">
-        <i class="fa fa-bars"></i>
-    </label>
-    <nav>
-        <ul>
-            <li class="active"><a href="#">home</a></li>
-            <li><a href="pages/about.html">about</a></li>
-            <li><a href="pages/service.html">service</a></li>
-            <li><a href="pages/contact.html">contact</a></li>
-        </ul>
+    <div class="bar bg-primary">
+        <label for="check">
+            <i class="fa fa-bars"></i>
+        </label>
+    </div>
+    <nav class="bg-primary">
+        <a href="#" class="active">home</a></>
+        <a href="pages/education.html">My education</a>
+        <a href="pages/experience.html">My Experience</a>
+        <a href="pages/contact.html">contact</a>
     </nav>
+    <section id="baner">
+        <div class="baner-left  d-flex-end b-sizing">
+            <div class="profile">
+                <img src="images/profile.png" alt="">
+            </div>
+        </div>
+        <div class="baner-right b-sizing d-flex-start">
+            <div class="parent">
+                <div class="title">
+                    <h1><span class="color-primary">Hello!</span> I'm Cham </h1>
+                    <h3><span>Web</span> developer</h3>
+                </div>
+
+                <div class="social">
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-telegram"></i></a>
+                    <a href=""><i class="fa fa-facebook-square"></i></a>
+                    <a href=""><i class="fa fa-twitter-square"></i></a>
+
+                </div>
+                <div class="btn d-flex-spec-b b-sizing">
+                    <div class="btn-child">
+                        <a href=""><button class="btn-download bg-primary b-sizing">Downoad CV</button></a>
+                    </div>
+                    <div class="btn-child">
+                        <a href=""><button class="btn-read color-border hover b-sizing">Read Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info mt-100 d-flex">
+        <div class="discrip b-sizing p-r-50">
+            <h2 class="color-primary p-b-10">About Me</h2>
+            <p class="text-line">Hello my name is cham.I come from a small village name is Taong village, Poychar
+                countiue, Pnhom Srok Distric,BanTeay MeanChey Privince.
+                I was born at january 21th 2002.i'm a third son in my family and i have to older sister.When I
+                graducated at 2020 I passed the PNC's scholarship Recently I am staying in Phnom penh because I am
+                studying at PNC University <b>(passerellesnumeriques Cambodia)</b> and i am also a IT as wel as <span
+                    class="color-primary">Web Programing.</span>
+
+            </p>
+        </div>
+        <div class="detail-info">
+            <h3 class="color-gray">Basic information</h3>
+            <div class="ditail">
+                <ul class="mt-10">
+                    <li>Address</li>
+                    <li>Day of birth</li>
+                    <li>Place</li>
+                    <li>country</li>
+                </ul>
+                <ul class="ml-50 mt-10">
+                    <li>St 269,TurkLaok bai,Phnom Penh city.</li>
+                    <li>21,january,2002</li>
+                    <li>CETC</li>
+                    <li>Cambodia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="content mt-100">
+        <div class="sub d-flex">
+            <div class="subtitle p-l-10 d-flex-start">
+                <h2><span class="color-primary">My</span> favorite</h2>
+            </div>
+            <div class="support">
+                <p class="text-line">Outside my skill ,my free time I like playing sport very much,guitar, and Reading
+                    book.All of them
+                    help
+                    we lot in my life healthy,creative and struggling.I think that the most of developer like to play
+                    something to greate new thing as awesome web site, game and anythings else.</p>
+            </div>
+        </div>
+        <div class="images  mt-100">
+            <div class="image image1 bg-center d-flex-center">
+                <div class="title">
+                    <h2 class="color-primary text-center">Guitar</h2>
+                    <p class="color-white text-line">This is my farvorite entertainment happy and make my feel is so
+                        good motivation and reduce stress.</p>
+                </div>
+            </div>
+            <div class="image image2 bg-center d-flex-center">
+                <div class="title">
+                    <h2 class="color-primary text-center">Reading Book</h2>
+                    <p class="color-white text-line">Exactly,The book give us a lot of knowlage,when you read more you
+                        will know more and motivation as well.</p>
+                </div>
+            </div>
+            <div class="image image3 bg-center d-flex-center">
+                <div class="title">
+                    <h2 class="color-primary text-center">Soccure</h2>
+                    <p class="color-white text-line">The football I like very much I play since when was young.I rechiev
+                        from fooball a lot as well good communication, friendship,and goal. .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-40 bg-gary">
+        <div class="contact">
+            <h3 class="text-center color-white p-10">Contact Me</h3>
+            <div class="icons b-sizing">
+                <a href=""><i class="fa fa-instagram color-white"></i></a>
+                <a href=""><i class="fa fa-telegram color-white"></i></a>
+                <a href=""><i class="fa fa-facebook-square color-white"></i></a>
+                <a href=""><i class="fa fa-twitter-square color-white"></i></a>
+            </div>
+            <div class="tel p-10">
+                <p class="color-white text-center p-b-10">+855 3333 2322</p>
+                <p class="color-white text-center">+855 3333 2322</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
