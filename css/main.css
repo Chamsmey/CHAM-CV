@@ -8,8 +8,8 @@ input,
 label {
     display: none;
 }
-.active {
-    color: #52565E;
+.menu .active {
+    color: #00BCE4;
 }
 nav {
     width: 100%;
