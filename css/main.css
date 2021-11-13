@@ -283,7 +283,6 @@ nav {
 @media(max-width:1023px){
     #baner{
         display: block;
-
     }
     .baner-left{
         width: 100%;
@@ -347,7 +346,10 @@ nav {
         width: 100%;
         transition: 1s;
         background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ;
-    } 
+    }
+    #baner{
+        padding:5px 0;
+    }
     .menu {
         display: flex;
         justify-content: center;
