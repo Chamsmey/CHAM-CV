@@ -9,7 +9,7 @@ label {
     display: none;
 }
 .menu .active {
-    color: #00BCE4;
+    color: #52565E;
 }
 nav {
     width: 100%;
@@ -92,8 +92,14 @@ nav {
 .p-10{
     padding: 10px;
 }
+.p-tb-10{
+    padding: 10px 0;
+}
 .p-50{
     padding: 50px;
+}
+.p-lr-50{
+    padding:0px 50px;
 }
 .p-b-10{
     padding-bottom: 10px;
@@ -132,6 +138,9 @@ nav {
 .ml-50{
     margin-left: 50px;
 }
+.ml-10{
+    margin-left: 10px;
+}
 .text-bold{
     font-weight: 200;
 }
@@ -152,7 +161,6 @@ nav {
 .baner-left{
     width: 50%;
     /* background:chocolate; */
-
 }
 .profile img{
     border-radius: 50%;
@@ -267,7 +275,6 @@ nav {
 .image .title{
     width: 70%;
 }
-
 .icons{
     width: 100%;
     text-align: center;
@@ -279,9 +286,70 @@ nav {
 .support{
     width: 80%;
 }
+/* education--------------------------------------------------- */
+.baner{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/10.jpg);
+}
+.container{
+    padding: 10px;
+}
+.education{
+    /* background: #52565E; */
+    width: 100%;
+    padding:30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.education .left{
+    width: 30%;
+    padding: 100px 0px;
 
+}
+.education .right{
+    width: 70%;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    width: 60%;
+    /* background: #52565E; */
+}
+.picture{
+    width: 40%;
+    /* background: #ddd; */
+}
+.picture img{
+    width: 100%;
+}
+.cards{
+    width: 100%;
+   
+}
+.card{
+    width: 25%;
+    /* border: 1px solid rgb(149, 138, 138); */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.footer .fa{
+    padding: 10px;
+}
+/* .head{
+    background: #52565E;
+} */
+.figma img{
+    width:85px;
+}
+/* Experience-------------------------------------------- */
 @media(max-width:1023px){
-    #baner{
+    #baner,.education{
         display: block;
     }
     .baner-left{
@@ -292,7 +360,9 @@ nav {
         width: 100%;
         justify-content: center;
     }
-    .parent{
+    .parent,
+    .education .left,
+    .education .right{
         width: 100%;
     }
     .social{
@@ -308,7 +378,6 @@ nav {
    .btn{
        display: flex;
        justify-content: center;
-
    }
    .btn-child{
        padding: 10px;
@@ -336,8 +405,24 @@ nav {
    .image3{
        width: 100%;
    }
- 
+   .education{
+    padding: 0;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    flex-wrap: wrap;
+    padding: 0;
+}
+.card{
+    width: 48%;
+    margin:5px;
+}
+}
+
 @media(max-width:500px) {
     nav {
         display: none;
@@ -345,10 +430,13 @@ nav {
         top: 60px;
         width: 100%;
         transition: 1s;
-        background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     #baner{
         padding:5px 0;
+    }
+    .menu .active {
+        color: #00BCE4;
     }
     .menu {
         display: flex;
@@ -371,11 +459,9 @@ nav {
     }
     .btn{
         display: block;
-       
     }
     .btn-child{
         width: 100%;
-
         display: flex;
         justify-content: center;
         text-align: center;
@@ -415,5 +501,14 @@ nav {
         width: 90%;
         padding: 10px;
     }
-
+    main{
+        display: block;
+    }
+   .aside ,.picture{
+       width: 100%;
+   }
+    .card{
+        width: 100%;
+        margin:10px 0;
+    }
 }
