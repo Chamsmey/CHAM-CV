@@ -338,6 +338,9 @@ main{
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+.future{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 .footer .fa{
     padding: 10px;
 }
@@ -360,7 +363,7 @@ main{
 .main-icon{
     width: 80%;
 }
-.f-icon,.form-icon li{
+.f-icon,.title-left ul li{
     font-size: 1.5em;
     list-style: none;
 }
@@ -521,6 +524,7 @@ main{
         width: 100%;
         transition: 1s;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background: rgba(0, 0, 0, 0.109);
     }
     #baner{
         padding:5px 0;
