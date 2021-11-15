@@ -4,7 +4,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-input,
+#check,
 label {
     display: none;
 }
@@ -347,6 +347,96 @@ main{
 .figma img{
     width:85px;
 }
+.title-left{
+    width: 10%;
+
+}
+.f-icon{
+    width:20%;
+}
+/* .f-icon{
+    background: chocolate;
+} */
+.main-icon{
+    width: 80%;
+}
+.f-icon,.form-icon li{
+    font-size: 1.5em;
+    list-style: none;
+}
+.circle{
+    margin: auto;
+    position: relative;
+    width:100px;
+    background: #00BCE4;
+    height:100px;
+    border-radius: 50%;
+}
+.circle .fa{
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%
+    );
+}
+.form{
+    padding:10px;
+}
+.userinput{
+    display: flex;
+}
+form{
+    width: 40%;
+    box-sizing: border-box;
+    /* background: brown; */
+}
+.form h1{
+    text-align: center;
+    font-size: 2em;
+}
+#name,#email,#password{
+    padding: 21px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+.btn-submit{
+    margin-top: 10px;
+    width: 83.5%;
+}
+.cancel,.send{
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.send{
+    margin-left: 10px;
+    border: none;
+
+}
+textarea{
+    width: 40%;
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+iframe{
+    width: 100%;
+}
+.form-icon{
+    width: 15%;
+    /* background: #ddd; */
+    
+}
+.form-icon .fa{
+    display: block;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 2em;
+    color: #000;
+}
 /* Experience-------------------------------------------- */
 @media(max-width:1023px){
     #baner,.education{
@@ -510,5 +600,31 @@ main{
     .card{
         width: 100%;
         margin:10px 0;
+    }
+    .circle{
+        width: 70px;
+        height: 70px;
+    }
+    .title-left li{
+        font-size: 1rem;
+    }
+    .f-icon{
+        margin-left:70px;
+    }
+    form,textarea,.form-icon,.btn-submit{
+        width: 100%;
+    }
+    textarea{
+        margin:10px 0;
+    }
+    .form-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .form-icon .fa{
+        color: #00BCE4;
+    }
+    .userinput{
+        display: block;
     }
 }
